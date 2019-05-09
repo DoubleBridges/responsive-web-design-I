@@ -245,6 +245,7 @@ footer {
 @media(max-width: 800px){
     .container {
         width: 90%;
+        margin: 0 auto;
     }
     .container header {
         flex-direction: column-reverse;
@@ -265,5 +266,21 @@ footer {
     }
     .cta img {
         display: none;
+    }
+    .main-content .top-content {
+        justify-content: space-evenly;
+    }
+    .top-content .text-content {
+        width: 45%;
+    }
+    .main-content .middle-img {
+        width: 100%;
+        margin: 30px auto;
+    }
+    .main-content .bottom-content {
+        justify-content: space-evenly;
+    }
+    .bottom-content .text-content {
+        width: 30%;
     }
 }
