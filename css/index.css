@@ -242,7 +242,9 @@ footer {
     height: 300px;
 }
 
-@media(max-width: 800px){
+/* Tablet Layout */
+
+@media(max-width: 800px) {
     .container {
         width: 90%;
         margin: 0 auto;
@@ -283,4 +285,26 @@ footer {
     .bottom-content .text-content {
         width: 30%;
     }
+}
+
+/*  Mobile Layout */
+
+@media(max-width: 500px) {
+    header nav {
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+    header nav a {
+        width: 100%;
+        padding: 20px 200px;
+        border-bottom: 1px solid gray;
+        flex-grow: 1;
+    }
+    header nav a:first-child {
+        border-top: 1px solid gray;
+    }
+
 }
