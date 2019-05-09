@@ -244,17 +244,26 @@ footer {
 
 @media(max-width: 800px){
     .container {
-        width: 100%;
+        width: 90%;
     }
     .container header {
         flex-direction: column-reverse;
     }
     header nav {
-        width: 90%;
+        width: 100%;
         margin: 20px auto;
     }
     header .logo {
         width: 150px;
         margin: 20px auto;
+    }
+    .cta {
+        justify-content: space-evenly;
+    }
+    .cta .cta-text {
+        margin: 0 auto;
+    }
+    .cta img {
+        display: none;
     }
 }
